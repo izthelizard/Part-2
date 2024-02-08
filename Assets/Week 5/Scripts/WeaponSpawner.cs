@@ -4,15 +4,12 @@ using UnityEngine;
 
 public class WeaponSpawner : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
-    void Update()
+    public GameObject spearPrefab;
+    public Transform spawn;
+
+    public void Spawner(GameObject spear)
     {
-        
+        Instantiate(spearPrefab, spawn);
     }
 }
