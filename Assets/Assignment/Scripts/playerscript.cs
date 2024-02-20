@@ -11,6 +11,7 @@ public class playerscript : MonoBehaviour
     Vector2 dest;
     Vector2 movement;
     public float speed = 5f;
+    bool clickOnLilMush = false;
 
     // Start is called before the first frame update
     void Start()
@@ -22,7 +23,7 @@ public class playerscript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetKey(KeyCode.Mouse1) && !clickOnLilMush)
         {
             dest = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         }
@@ -38,5 +39,10 @@ public class playerscript : MonoBehaviour
         }
         rb.MovePosition(rb.position + movement.normalized * speed * Time.deltaTime);
 
+    }
+
+    private void OnMouseDown()
+    {
+        animator.SetTrigger("mushroom");
     }
 }
