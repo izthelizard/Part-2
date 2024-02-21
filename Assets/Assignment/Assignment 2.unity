@@ -378,7 +378,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 271180083}
-  lilMushMaxCount: 10
+  lilMushMaxCount: 20
   lilMushCount: 0
   numLilMush: {fileID: 1903547517}
 --- !u!4 &271180086
@@ -589,7 +589,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 305957107}
-  lilMushMaxCount: 10
+  lilMushMaxCount: 20
   lilMushCount: 0
   numLilMush: {fileID: 1903547517}
 --- !u!4 &305957110
@@ -1252,7 +1252,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 768583546}
-  lilMushMaxCount: 10
+  lilMushMaxCount: 20
   lilMushCount: 0
   numLilMush: {fileID: 1903547517}
 --- !u!4 &768583549
@@ -1587,7 +1587,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 875364832}
-  lilMushMaxCount: 10
+  lilMushMaxCount: 20
   lilMushCount: 0
   numLilMush: {fileID: 1903547517}
 --- !u!4 &875364835
@@ -1798,7 +1798,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 914383783}
-  lilMushMaxCount: 10
+  lilMushMaxCount: 20
   lilMushCount: 0
   numLilMush: {fileID: 1903547517}
 --- !u!4 &914383786
@@ -2009,7 +2009,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 1010279385}
-  lilMushMaxCount: 10
+  lilMushMaxCount: 20
   lilMushCount: 0
   numLilMush: {fileID: 1903547517}
 --- !u!4 &1010279388
@@ -2367,7 +2367,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 1144679665}
-  lilMushMaxCount: 10
+  lilMushMaxCount: 20
   lilMushCount: 0
   numLilMush: {fileID: 1903547517}
 --- !u!4 &1144679668
@@ -7107,7 +7107,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 1321418886}
-  lilMushMaxCount: 10
+  lilMushMaxCount: 20
   lilMushCount: 0
   numLilMush: {fileID: 1903547517}
 --- !u!4 &1321418889
@@ -7575,7 +7575,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 1605693953}
-  lilMushMaxCount: 10
+  lilMushMaxCount: 20
   lilMushCount: 0
   numLilMush: {fileID: 1903547517}
 --- !u!4 &1605693956
@@ -7981,7 +7981,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 1722064415}
-  lilMushMaxCount: 10
+  lilMushMaxCount: 20
   lilMushCount: 0
   numLilMush: {fileID: 1903547517}
 --- !u!4 &1722064418

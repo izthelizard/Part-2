@@ -12,6 +12,7 @@ public class lilmushscript : MonoBehaviour
     public float lilMushMaxCount = 20;
     public float lilMushCount;
     public lilmushcounter numLilMush;
+    
 
 
     // Start is called before the first frame update
@@ -19,6 +20,7 @@ public class lilmushscript : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+        lilMushCount = lilMushMaxCount;
 
     }
 
