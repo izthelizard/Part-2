@@ -6,16 +6,12 @@ using UnityEngine;
 
 public class lilmushcounter : MonoBehaviour
 {
-    
+    public Slider count;
     // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
-    public void sublilmush(float lilMushCount)
+    void lilmush(float lilmushclick)
     {
-        
+        count.value -= lilmushclick;
     }
 
 

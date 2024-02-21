@@ -9,15 +9,17 @@ public class lilmushscript : MonoBehaviour
     Rigidbody2D rb;
     public Animator animator;
     bool clickOnLilMush = false;
-    public float lilMushMaxCount = 10;
+    public float lilMushMaxCount = 20;
     public float lilMushCount;
+    public lilmushcounter numLilMush;
+
 
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
-        lilMushCount = lilMushMaxCount;
+
     }
 
     // Update is called once per frame
@@ -30,9 +32,14 @@ public class lilmushscript : MonoBehaviour
     }
     private void OnMouseDown()
     {
-        animator.SetTrigger("lilmush");
-        gameObject.SendMessage("sublilmush", -1);
-        
-    }
+        gameObject.SendMessage("lilmush", 1);
 
+    }
+    void lilmush(float lilmushclick)
+    {
+        lilMushCount -= lilmushclick;
+        lilMushCount = Mathf.Clamp(lilMushCount, 0, lilMushMaxCount);
+        animator.SetTrigger("lilmush");
+
+    }
 }
